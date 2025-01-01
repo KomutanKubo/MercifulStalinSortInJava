@@ -7,5 +7,7 @@ public class Main {
         System.out.println(MercifulStalinSort.mercifulStalinSort(list1));
         System.out.println(MercifulStalinSort.mercifulStalinSort(list2));
 
+
+
     }
 }
