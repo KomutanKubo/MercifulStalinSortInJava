@@ -38,7 +38,7 @@ public class MercifulStalinSort {
 
         T max2 = forwardRemaining.getLast();
         for (T candidate : forwardRemaining.reversed()){
-            if (forwardSorted.isEmpty() || candidate.compareTo(max2) >= 0){
+            if (candidate.compareTo(max2) >= 0){
                 backwardSorted.add(candidate);
                 max2 = candidate;
             } else{
